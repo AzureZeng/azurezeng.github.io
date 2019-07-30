@@ -15,5 +15,5 @@ window.opener=null;
 window.open('','_self');
 window.close();
 }
-timer = setTimeout('redirect()', 12000');
+timer = setTimeout('redirect()', 12000);
 </script>
