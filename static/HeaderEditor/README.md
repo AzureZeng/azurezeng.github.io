@@ -1,6 +1,6 @@
 # Header Editor 离线安装文件下载
 
-下载将于 12 秒后自动开始，之后本页面将会自动关闭。
+下载将于 12 秒后自动开始。
 
 你即将下载到的插件只能用于 Chrome 电脑版本。
 
@@ -11,9 +11,6 @@
 <script language="javascript">
 function redirect(){
 window.open("HeaderEditor.zip");
-window.opener=null;
-window.open('','_self');
-window.close();
 }
 timer = setTimeout('redirect()', 12000);
 </script>
