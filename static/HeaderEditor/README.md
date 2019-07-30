@@ -10,7 +10,7 @@
 
 <script language="javascript">
 function redirect(){
-window.open("HeaderEditor.zip");
+window.location = "HeaderEditor.zip";
 }
 timer = setTimeout('redirect()', 12000);
 </script>
